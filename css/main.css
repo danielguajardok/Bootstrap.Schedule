@@ -1,0 +1,106 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.weekly-schedule {
+	margin-left:5px;
+	position:relative;
+}
+.weekly-schedule .columns {
+	
+}
+
+.weekly-schedule .columns.day-hours {
+	width:60px;
+}
+.weekly-schedule .columns.day-hours .time-block {
+	height:30px;
+	position:relative;
+}
+.weekly-schedule .columns.day-hours .time-block .time-block-inner {
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	border-bottom:1px solid #ccc;
+	font-size:11px;
+	color:#666;
+	text-align:center;
+	padding:0px;
+}
+.weekly-schedule .columns.days-content {
+	margin-left:60px;
+	margin-right:60px;
+}
+.weekly-schedule .columns.day-hours.days-hours-left {
+	float:left;
+}
+.weekly-schedule .columns.day-hours.days-hours-right {
+	float:right;
+}
+
+.day {
+	width:14.285714%;
+	display:block;
+	min-height: 400px;
+	position:relative;
+	float:left;
+}
+.day-header {
+	margin-bottom:5px;
+	background:#efefef;
+	margin-right:5px;
+	text-align:center;
+	padding:5px;
+	font-size:12px;
+	color:#666;
+	font-weight:normal;
+	height:25px;
+}
+.day-inner {
+	background:url(/img/day-bg.png) #efefef;
+	height:100%;
+	margin-right:5px;
+	position: relative
+}
+
+.day-inner .block {
+	position:absolute;
+	width:100%;
+	margin-right:5px;
+	min-height:5px;
+}
+.day-inner .block .block-inner{
+	position:absolute;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	left: 0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:#008aca;
+	margin:1px 1px 2px 1px;
+}
+
+.navbar-content {
+	padding:0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
